@@ -1,6 +1,7 @@
 import { motion, useScroll, useSpring } from "framer-motion";
 
 import ParticleField from "./components/ParticleField";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   const { scrollYProgress } = useScroll();
@@ -25,6 +26,7 @@ const App = () => {
         style={{ scaleX }}
       />
       <ParticleField />
+      <Navbar />
     </div>
   );
 };
