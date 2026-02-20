@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Journey from "./components/Journey";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 const App = () => {
   const { scrollYProgress } = useScroll();
@@ -33,6 +34,7 @@ const App = () => {
       <Hero />
       <Journey />
       <Skills />
+      <Projects />
       <footer className="py-10 text-center border-t border-white/5 text-slate-600 text-[10px] font-bold tracking-[0.3em] uppercase">
         &copy; {new Date().getFullYear()} DESIGNED BY ARAVINTH •
         Tiruchirappalli, Tamil Nadu
