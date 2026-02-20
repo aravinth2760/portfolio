@@ -3,6 +3,7 @@ import { motion, useScroll, useSpring } from "framer-motion";
 import ParticleField from "./components/ParticleField";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Journey from "./components/Journey";
 
 const App = () => {
   const { scrollYProgress } = useScroll();
@@ -29,6 +30,7 @@ const App = () => {
       <ParticleField />
       <Navbar />
       <Hero />
+      <Journey />
       <footer className="py-10 text-center border-t border-white/5 text-slate-600 text-[10px] font-bold tracking-[0.3em] uppercase">
         &copy; {new Date().getFullYear()} DESIGNED BY ARAVINTH •
         Tiruchirappalli, Tamil Nadu
