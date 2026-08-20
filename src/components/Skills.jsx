@@ -4,40 +4,34 @@ import { Database, Globe, Terminal, Cpu } from "lucide-react";
 const Skills = () => {
   const skills = [
     {
-      name: "Frontend",
+      name: "Languages",
       icon: Globe,
+      list: ["HTML", "CSS", "SCSS", "JavaScript", "TypeScript"],
+    },
+    {
+      name: "Frameworks & Libraries",
+      icon: Terminal,
       list: [
-        "HTML",
-        "CSS",
-        "SCSS",
-        "JavaScript",
-        "TypeScript",
         "Angular 13+",
         "Bootstrap 5+",
-        "React",
+        "React.js",
+        "React Native",
         "Redux",
         "Next.js",
-        "Angular Material",
-        "NgRx",
-        "RxJS",
-        "Routing (Lazy Loading)",
-        "Signals",
+        "Node.js",
+        "Express.js",
+        "PHP",
       ],
     },
     {
-      name: "Backend",
-      icon: Terminal,
-      list: ["Node.js", "Express", "REST APIs", "Clean Code"],
-    },
-    {
-      name: "Database",
+      name: "Databases",
       icon: Database,
-      list: ["MongoDB", "Database Design", "Firebase"],
+      list: ["Microsoft SQL Server", "T-SQL", "MySQL", "MongoDB", "Firebase"],
     },
     {
-      name: "DevOps/Tools",
+      name: "Tools & Platforms",
       icon: Cpu,
-      list: ["Git & GitHub", "GitLab", "npm"],
+      list: ["Visual Studio Code", "Git", "GitHub", "GitLab", "npm"],
     },
   ];
 
