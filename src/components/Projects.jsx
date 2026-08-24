@@ -1,7 +1,7 @@
 import { Github, ExternalLink } from "lucide-react";
 
 import InnovativeApp from "../assets/images/projects/innovative-app.png";
-import StudentManagement from "../assets/images/projects/student-management.png";
+import StudentManagement from "../assets/images/projects/student-management.jpeg";
 import TodoApp from "../assets/images/projects/todo-app.png";
 import APJFurniture from "../assets/images/projects/apj-furniture.png";
 import Makaan from "../assets/images/projects/makaan.png";
