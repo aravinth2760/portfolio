@@ -1,6 +1,7 @@
 import { Github, ExternalLink } from "lucide-react";
 
 import InnovativeApp from "../assets/images/projects/innovative-app.png";
+import StudentManagement from "../assets/images/projects/student-management.png";
 import TodoApp from "../assets/images/projects/todo-app.png";
 import APJFurniture from "../assets/images/projects/apj-furniture.png";
 import Makaan from "../assets/images/projects/makaan.png";
@@ -8,6 +9,15 @@ import Nexcent from "../assets/images/projects/nexcent.png";
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Student Management System",
+      description:
+        "A full-stack student management web application built with PHP and MySQL, featuring complete CRUD operations, database-driven student records, and a responsive Bootstrap user interface.",
+      live: "https://student-management27.infinityfreeapp.com/",
+      code: "https://github.com/aravinth2760/student-management",
+      img: StudentManagement,
+      usingLanguage: ["PHP", "MySQL", "Bootstrap"],
+    },
     {
       title: "Innovative App",
       description:
